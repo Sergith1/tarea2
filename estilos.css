@@ -1,0 +1,514 @@
+/*====================== Estilos Universales=============================*/
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+/*========================== Estilos tipo Etiqueta ==============================*/
+
+@font-face {
+	font-family:daytime;
+	src: url(fuente/Daytime.ttf); 
+}
+h1{
+	color: rgb(0, 0, 0);
+	align-items: center;
+	min-height: 70px;
+	display: flex;
+	font-family: Daytime;
+	font-size: 40px;	
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+h3{
+	font-family: verdana;
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	margin: auto;
+}
+h4{ font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+body{
+	background-color: white;
+}
+
+/*=========================================== LOGO =======================================*/
+
+.logo{
+	display: flex;
+	align-items: center;
+	min-height: 70px;
+	margin:auto;
+	padding: 10px;
+}
+.logo img{
+	border-radius: 20px;
+}
+
+/*============================= Estilos de tipo Clase ==========================*/
+
+.Titulo3 {
+	margin: 40px;
+}
+
+/*============================ Estilos descendentes ================================*/
+
+
+.itemServicios p{
+	text-align: center;
+	display: flex;	
+	padding: 10px;
+}
+
+/*======================= CONTENEDOR =======================*/
+.contenedor{
+	padding: 10px;
+	margin:auto;
+	background-color: rgb(255, 255, 255);
+	width: 1200px;
+	overflow: hidden;
+	max-width: none;
+}
+.encabezado{
+	margin: auto;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	min-height: 70px;
+	width: 100%;
+}
+
+/*=================================== BANER ==============================*/
+
+.baner {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.baner ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate;
+}
+.baner li {
+	width: 100%;
+	list-style: none;
+}
+.baner img {
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 40px;
+}
+@keyframes cambio {
+    0% { margin-left: 0;} 
+    20% { margin-left: 0;} 
+
+    25% { margin-left: -100%;}
+	45% { margin-left: -100%;}
+
+	50% { margin-left: -200%;}
+	70% { margin-left: -200%;}
+
+	75% { margin-left: -300%;}
+	100% { margin-left: -300%;}
+}
+	
+
+/*====================== LO MAS VENDIDO =====================*/
+
+.servicios{
+	background-color: #FDEDEC;
+	padding: 20PX;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 40px;
+}
+.itemServicios{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	border-radius: 40px;
+}
+.itemServicios1{
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	border-radius: 40px;
+}
+.itemServicios1 img{
+	background-size: 100% 100%;
+	border-radius: 40px;
+}
+.itemServicios img{
+	background-size: 100% 100%;
+	border-radius: 40px;
+}
+
+/*====================== LOS DESCUENTOS =====================*/
+
+.productos{
+	background-color: #FDEDEC;
+	padding: 20px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 40px;
+}
+.itemProductos{
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 40px;
+}
+.itemProductos img{
+	background-size: 100% 100%;
+	border-radius: 40px;
+}
+.itemProductos1 img{
+	
+	border-radius: 40px;
+}
+.itemProductos1{
+	padding: 20px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/*===================== BARRA DE MENU =====================*/
+.nav{
+	position: relative;
+    list-style: none;
+    padding: 10px 0px;
+    display: flex;
+	text-align: right;
+}
+.nav li{
+	display: inline-block;
+	margin: 5px
+}
+.nav li a{
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 10px 20px;
+    display: flex;
+	font-weight: 600;
+	text-align: center;	
+}
+.nav li img{
+	padding-right: 10px;
+	text-align: right;
+	background-color: white;
+}
+.nav li a:hover{
+	color: brown;
+
+}
+
+/*================================================ PIE =============================================*/
+
+.pie{
+	background-color: #e2e1e19d;
+	margin-top: 30px;
+	padding-top: 10px;
+	height: 500px;
+}
+
+
+
+.datosPie{
+	margin-top: -20px;
+	padding-top: -20px;
+	margin-top: 10px;
+	padding-left: 45px;	
+}
+.datosPie a{
+	overflow: hidden;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 80px;	
+}
+.datosPie p{
+	overflow: hidden;
+	font-size: 20px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+
+
+.datosPie2{
+	padding-top: -20px;
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 70%;
+	position: relative;
+	top: -240px;
+	right: -490px;
+}
+.datosPie2 a{
+	overflow: hidden;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 80px;	
+}
+.datosPie2 p{
+	overflow: hidden;
+	font-size: 20px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+
+
+.datosPie3{
+	padding-top: -20px;
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 70%;
+	position: relative;
+	top: -529px;
+	right: -850px;
+}
+.datosPie3 a{
+	overflow: hidden;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 80px;		
+}
+.datosPie3 p{	
+	overflow: hidden;
+	font-size: 20px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+
+
+.image3{
+	position: relative;
+	top: -400px;
+	left: 420px;
+}
+.image3 img{
+	width: 400px;
+	height: 100px;
+}
+
+.boton1{
+	background-color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);	
+}
+
+
+
+
+/*=============================================== PAGINA 2 =========================================*/
+
+
+
+
+
+.bannerQuierocomprar{
+	margin: 10px;
+	padding: 150px 30px;
+	background-image: url(images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 40px;
+}	
+.textobannerQuierocomprar{
+	background-color: rgba(255, 255, 255, 0);
+	width: 40%;
+	padding: 20px;
+}
+
+
+
+/*=============================================== PAGINA 3 =========================================*/
+
+
+
+.baner3 {
+	margin: 10px;
+	padding: 150px 30px;
+	background-image: url(images/banersoporte.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 40px;
+}
+.itemProductos3{
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 40px;
+}
+.itemProductos3 img{
+	
+	border-radius: 40px;
+}
+
+
+
+/*=============================================== PAGINA 4 =========================================*/
+
+
+
+.baner4{
+	margin: 10px;
+	padding: 150px 30px;
+	background-image: url(images/Contactanos.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 40px;
+}
+
+
+
+.cuadrado1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.cuadrado2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.productos4{
+	background-color: #FDEDEC;
+	padding: 20px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 40px;
+}
+.itemProductos4{
+	padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Formulario{
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	align-items: center;
+	background-color: white;
+}
+.Formulario li textarea{
+	display: inline-table;
+	padding: 20px;
+	width: 500px;
+	height: 300px;
+}
+
+
+
+/*=============================================== PAGINA 5 ==================================*/
+
+
+
+.banner5 img{
+	width: 700px;
+	height: 600px;
+	border-radius: 40px;
+}
+.banner5{
+   margin-top: 40px;
+   background-color:white;
+   display: flex;
+   color: rgb(0, 0, 0);
+   overflow:hidden;
+   padding-left: 60px; 
+}
+
+
+.texto {
+	padding-left:55px;
+	font-size: 30px;
+	overflow: hidden;
+}
+.texto p{
+    overflow: hidden;
+
+}
+.texto h5{
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+
+.seccionRegistro{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+.datosRegistro{
+	padding-right: 10px;
+	text-align: right;
+	background-color: rgb(255, 255, 255);
+	margin-left: 80px;
+}
+.datosRegistro iframe{
+	border-radius: 40px;
+}
+.seccionRegistro h6{
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: -50px;
+}
+.seccionRegistro p{
+	overflow: hidden;
+	font-size: 25px;
+	margin-top: 10px;
+}
+.seccionRegistro a{
+    overflow: hidden;
+	font-size: 25px;
+	font-weight: 700;
+	
+}
+
+
+.texto2{
+	padding-top: 40px;
+	margin-top: 20px;
+	padding-left: 40px;
+}
+
+
+.redes{
+	margin-top: 90px;
+	margin-left: 35%;	
+ }
+ .redes img{
+	 margin-left: 50px;
+	 margin-right: 30px;
+ }
+	
